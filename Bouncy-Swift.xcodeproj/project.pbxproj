@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1DEE8441BEFA00300413E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEE8431BEFA00300413E38 /* AppDelegate.swift */; };
-		F1DEE8461BEFA00300413E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEE8451BEFA00300413E38 /* ViewController.swift */; };
-		F1DEE8491BEFA00300413E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DEE8471BEFA00300413E38 /* Main.storyboard */; };
-		F1DEE84B1BEFA00300413E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DEE84A1BEFA00300413E38 /* Assets.xcassets */; };
-		F1DEE84E1BEFA00300413E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DEE84C1BEFA00300413E38 /* LaunchScreen.storyboard */; };
+		F1DEE85E1BEFA03E00413E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEE8561BEFA03E00413E38 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		F1DEE85F1BEFA03E00413E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DEE8571BEFA03E00413E38 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		F1DEE8601BEFA03E00413E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DEE8581BEFA03E00413E38 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		F1DEE8611BEFA03E00413E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DEE85A1BEFA03E00413E38 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		F1DEE8631BEFA03E00413E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEE85D1BEFA03E00413E38 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1DEE86C1BEFA08800413E38 /* THAObjCAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEE8671BEFA08800413E38 /* THAObjCAssociation.swift */; settings = {ASSET_TAGS = (); }; };
+		F1DEE86D1BEFA08800413E38 /* THAViewBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEE8681BEFA08800413E38 /* THAViewBounce.swift */; settings = {ASSET_TAGS = (); }; };
+		F1DEE86E1BEFA08800413E38 /* THABouncyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEE86A1BEFA08800413E38 /* THABouncyButton.swift */; settings = {ASSET_TAGS = (); }; };
+		F1DEE86F1BEFA08800413E38 /* THABouncyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEE86B1BEFA08800413E38 /* THABouncyLabel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1DEE8401BEFA00300413E38 /* Bouncy-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bouncy-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1DEE8431BEFA00300413E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1DEE8451BEFA00300413E38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F1DEE8481BEFA00300413E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F1DEE84A1BEFA00300413E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F1DEE84D1BEFA00300413E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F1DEE84F1BEFA00300413E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DEE8561BEFA03E00413E38 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1DEE8571BEFA03E00413E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1DEE8591BEFA03E00413E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1DEE85B1BEFA03E00413E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1DEE85C1BEFA03E00413E38 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DEE85D1BEFA03E00413E38 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1DEE8671BEFA08800413E38 /* THAObjCAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THAObjCAssociation.swift; sourceTree = "<group>"; };
+		F1DEE8681BEFA08800413E38 /* THAViewBounce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THAViewBounce.swift; sourceTree = "<group>"; };
+		F1DEE86A1BEFA08800413E38 /* THABouncyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THABouncyButton.swift; sourceTree = "<group>"; };
+		F1DEE86B1BEFA08800413E38 /* THABouncyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THABouncyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +46,8 @@
 		F1DEE8371BEFA00300413E38 = {
 			isa = PBXGroup;
 			children = (
-				F1DEE8421BEFA00300413E38 /* Bouncy-Swift */,
+				F1DEE8651BEFA08800413E38 /* Bouncy */,
+				F1DEE8551BEFA03E00413E38 /* Demo */,
 				F1DEE8411BEFA00300413E38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +60,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F1DEE8421BEFA00300413E38 /* Bouncy-Swift */ = {
+		F1DEE8551BEFA03E00413E38 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				F1DEE8431BEFA00300413E38 /* AppDelegate.swift */,
-				F1DEE8451BEFA00300413E38 /* ViewController.swift */,
-				F1DEE8471BEFA00300413E38 /* Main.storyboard */,
-				F1DEE84A1BEFA00300413E38 /* Assets.xcassets */,
-				F1DEE84C1BEFA00300413E38 /* LaunchScreen.storyboard */,
-				F1DEE84F1BEFA00300413E38 /* Info.plist */,
+				F1DEE8561BEFA03E00413E38 /* AppDelegate.swift */,
+				F1DEE8571BEFA03E00413E38 /* Assets.xcassets */,
+				F1DEE8581BEFA03E00413E38 /* LaunchScreen.storyboard */,
+				F1DEE85A1BEFA03E00413E38 /* Main.storyboard */,
+				F1DEE85C1BEFA03E00413E38 /* Info.plist */,
+				F1DEE85D1BEFA03E00413E38 /* ViewController.swift */,
 			);
-			path = "Bouncy-Swift";
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		F1DEE8651BEFA08800413E38 /* Bouncy */ = {
+			isa = PBXGroup;
+			children = (
+				F1DEE8661BEFA08800413E38 /* Extension */,
+				F1DEE8691BEFA08800413E38 /* Library */,
+			);
+			path = Bouncy;
+			sourceTree = "<group>";
+		};
+		F1DEE8661BEFA08800413E38 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1DEE8671BEFA08800413E38 /* THAObjCAssociation.swift */,
+				F1DEE8681BEFA08800413E38 /* THAViewBounce.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F1DEE8691BEFA08800413E38 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F1DEE86A1BEFA08800413E38 /* THABouncyButton.swift */,
+				F1DEE86B1BEFA08800413E38 /* THABouncyLabel.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,9 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DEE84E1BEFA00300413E38 /* LaunchScreen.storyboard in Resources */,
-				F1DEE84B1BEFA00300413E38 /* Assets.xcassets in Resources */,
-				F1DEE8491BEFA00300413E38 /* Main.storyboard in Resources */,
+				F1DEE8611BEFA03E00413E38 /* Main.storyboard in Resources */,
+				F1DEE85F1BEFA03E00413E38 /* Assets.xcassets in Resources */,
+				F1DEE8601BEFA03E00413E38 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,28 +170,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DEE8461BEFA00300413E38 /* ViewController.swift in Sources */,
-				F1DEE8441BEFA00300413E38 /* AppDelegate.swift in Sources */,
+				F1DEE8631BEFA03E00413E38 /* ViewController.swift in Sources */,
+				F1DEE86C1BEFA08800413E38 /* THAObjCAssociation.swift in Sources */,
+				F1DEE86F1BEFA08800413E38 /* THABouncyLabel.swift in Sources */,
+				F1DEE86D1BEFA08800413E38 /* THAViewBounce.swift in Sources */,
+				F1DEE85E1BEFA03E00413E38 /* AppDelegate.swift in Sources */,
+				F1DEE86E1BEFA08800413E38 /* THABouncyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F1DEE8471BEFA00300413E38 /* Main.storyboard */ = {
+		F1DEE8581BEFA03E00413E38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F1DEE8481BEFA00300413E38 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F1DEE84C1BEFA00300413E38 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1DEE84D1BEFA00300413E38 /* Base */,
+				F1DEE8591BEFA03E00413E38 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F1DEE85A1BEFA03E00413E38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DEE85B1BEFA03E00413E38 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -246,7 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Bouncy-Swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spagosx.Bouncy-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -257,7 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Bouncy-Swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spagosx.Bouncy-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
